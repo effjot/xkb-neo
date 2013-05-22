@@ -1,12 +1,31 @@
 partial alphanumeric_keys modifier_keys keypad_keys
 xkb_symbols "neo" {
+
+    // Exchange j and y
+
     key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC_LEVEL_FIVE_LOCK";
     key <AC11> { [ j,                       J,                       semicolon,               Greek_theta,             semicolon,               NoSymbol,                Greek_THETA,             NoSymbol                 ] };
     key <AB10> { [ y,                       Y,                       at,                      Greek_upsilon,           period,                  KP_Decimal,              nabla,                   NoSymbol                 ] };
 
+
+    // M3 and M4 on central column (keys labelled Tab and Del).
+    // Copied from level3(caps_switch) and level5(lsgt_switch_lock).
+
+    key <TAB> {
+        type[Group1]="ONE_LEVEL",
+        symbols[Group1] = [ ISO_Level3_Shift ]
+    };
+    include "level3(modifier_mapping)"
+    include "level5(lock)"
+    key <HENK> {
+        type[Group1] = "EIGHT_LEVEL",
+        symbols[Group1] = [ ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Shift, ISO_Level5_Lock, ISO_Level5_Lock, ISO_Level5_Lock, ISO_Level5_Lock ]
+    };
+
 };
 
-// Map Tab to the left space bar.  The definition is from the NEO layout.
+
+// Map Tab to the left space bar.  The definition is copied from the NEO layout.
 partial alphanumeric_keys
 xkb_symbols "leftspace_tab" {
     key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";

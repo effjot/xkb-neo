@@ -149,5 +149,5 @@
   lv5:ralt_switch_lock_cancel     =       +level5(ralt_switch_lock_cancel)
   lv5:lwin_switch_lock_cancel     =       +level5(lwin_switch_lock_cancel)
   lv5:rwin_switch_lock_cancel     =       +level5(rwin_switch_lock_cancel)
-
+  truly:neo                       =       +truly(neo)
 

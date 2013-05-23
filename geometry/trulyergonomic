@@ -1,8 +1,8 @@
 // -*- compile-command: "xkbcomp trulyergonomic - | xkbprint - - | convert -background white -flatten +matte -rotate -90 PS:- PNG:- | display -" -*-
+
 default xkb_geometry "n_209" {
 
-
-    description= "Truly Ergonomic Keyboard";
+    description= "Truly Ergonomic Computer Keyboard (TECK)";
     width= 330;
     height= 200;
 
@@ -18,7 +18,7 @@ default xkb_geometry "n_209" {
     shape "DELKEY" { { [ 20,18] }, { [2,1], [18,17] } };
     shape "TABKEY" { { [ 24,18] }, { [2,1], [22,17] } };
     shape "BSKEY" { { [ 28,18] }, { [2,1], [26,17] } };
-    shape "ENTERKEY" { { [ 27,18] }, { [2,1], [25,17] } };
+    shape "ENTERKEY" { { [ 32,18] }, { [2,1], [30,17] } };
     shape "SPACEBAR" { { [ 38,18] }, { [2,1], [36,17] } };
 
 // 290    20  310
@@ -81,7 +81,7 @@ key.shape="SPACEBAR";
 	keys { <JPCM> };
     };
 };
-section "RigthSpace" {
+section "RightSpace" {
     left=181;
     top=130;
     angle=-6;
@@ -116,7 +116,7 @@ key.shape="SPACEBAR";
 left=-2;
 top=20;
 	    keys {
-	    	{<DELE>, "DELKEY"}
+	    	{<HENK>, "DELKEY"}
 	    };
 	};
 	row {
@@ -134,7 +134,7 @@ top=60;
 	    };
 	};
 	row {
-left=-5;
+left=-8;
 top=80;
 	    keys {
 	    	{<RTRN>, "ENTERKEY"}

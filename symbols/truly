@@ -4,8 +4,18 @@ xkb_symbols "neo" {
     // Exchange j and y
 
     key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC_LEVEL_FIVE_LOCK";
-    key <AC11> { [ j,                       J,                       semicolon,               Greek_theta,             semicolon,               NoSymbol,                Greek_THETA,             NoSymbol                 ] };
-    key <AB10> { [ y,                       Y,                       at,                      Greek_upsilon,           period,                  KP_Decimal,              nabla,                   NoSymbol                 ] };
+    key <AC11> { [ j, J, semicolon,	Greek_theta,	semicolon,	NoSymbol,	Greek_THETA,	NoSymbol ] };
+    key <AB10> { [ y, Y, at,		Greek_upsilon,	period,		KP_Decimal,	nabla,		NoSymbol ] };
+
+
+    // Put deadkeys T1, T2, T3 on keys "backslash", "grave", "acute".
+    // Free up "plus" key, use it as keypad plus, additionally with "=" when shifted.
+
+    key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
+    key <BKSL> { [ dead_circumflex, dead_caron,	U21BB,		U02DE,		dead_abovedot,		Pointer_EnableKeys, dead_belowdot,	NoSymbol ] };
+    key <TLDE> { [ dead_grave,	dead_cedilla,	dead_abovering,	dead_dasia,	dead_diaeresis,		NoSymbol,	dead_macron,	NoSymbol ] };
+    key <LSGT> { [ dead_acute,	dead_tilde,	dead_stroke,	dead_psili,	dead_doubleacute,	NoSymbol,	dead_breve,	NoSymbol ] };
+    key <AE12> { [ KP_Add,	equal,		plusminus,	U2295,		U2213,			NoSymbol,	U2214,		NoSymbol ] };
 
 
     // M3 and M4 on central column (keys labelled Tab and Del).

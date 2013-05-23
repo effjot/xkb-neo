@@ -57,7 +57,7 @@ section "RightCross" {
     	top=10;
 	left=-20;
 	vertical=True;
-	keys { <LEFT> };
+	keys { <RGHT> };
     };
     row {
         left=-40;
@@ -68,7 +68,7 @@ section "RightCross" {
     	top=10;
     	left=-60;
     	vertical=True;
-    	keys { <RGHT> };
+    	keys { <LEFT> };
     };
 };
 

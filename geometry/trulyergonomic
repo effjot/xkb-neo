@@ -7,19 +7,19 @@ default xkb_geometry "n_209" {
     height= 200;
 
     shape.cornerRadius= 1;
-    shape "NORM" { { [ 18,18] }, { [2,1], [16,17] } };
-    shape "WIDE" { { [ 38,18] }, { [2,1], [36,17] } };
-    shape "TALL" { { [ 18,37] }, { [2,1], [16,36] } };
-    shape "FKEY" { cornerRadius=0, { [ 10,13] } };
+    shape "NORM" { { [ 18,18] }, { [1,1], [17,15] } };
+    shape "WIDE" { { [ 38,18] }, { [1,1], [37,15] } };
+    shape "TALL" { { [ 18,37] }, { [2,1], [16,36] } };  // not used
+    shape "FKEY" { cornerRadius=0, { [ 10,13] } };      // not used
     shape "LED"  { cornerRadius= 1.5, { [ 3,  3] } };
     shape "EDGE" { cornerRadius=2, { [ 20, 1 ], [ 310, 1 ], [ 329, 199 ], [ 0, 199] } };
 
-    shape "LOGOKEY" { { [ 16,18] }, { [2,1], [14,17] } };
-    shape "DELKEY" { { [ 20,18] }, { [2,1], [18,17] } };
-    shape "TABKEY" { { [ 24,18] }, { [2,1], [22,17] } };
-    shape "BSKEY" { { [ 28,18] }, { [2,1], [26,17] } };
-    shape "ENTERKEY" { { [ 32,18] }, { [2,1], [30,17] } };
-    shape "SPACEBAR" { { [ 38,18] }, { [2,1], [36,17] } };
+    shape "LOGOKEY" { { [ 16,18] }, { [1,1], [15,15] } };
+    shape "DELKEY" { { [ 20,18] }, { [1,1], [19,15] } };
+    shape "TABKEY" { { [ 24,18] }, { [1,1], [23,15] } };
+    shape "BSKEY" { { [ 28,18] }, { [1,1], [27,15] } };
+    shape "ENTERKEY" { { [ 32,18] }, { [1,1], [31,15] } };
+    shape "SPACEBAR" { { [ 38,18] }, { [1,1], [37,15] } };
 
 // 290    20  310
     outline "Edges" {

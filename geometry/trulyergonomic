@@ -149,7 +149,7 @@ top=80;
 	key.shape= "NORM";
 	key.gap= 2;
 	row {
-	    keys { <CAPS>, <CAPS>, <NMLK> };
+	    keys { <CAPS>, { <FN>, color = "grey10" }, <NMLK> };
 	};
     };
 
@@ -166,7 +166,7 @@ key.gap=2;
         angle = 6;
 	row {
 	    left= 2;
-	    keys { <LSGT>, <BKSL>, { <LFSH>, "WIDE"}, { <LCTL>, "WIDE"}, <X000>};
+	    keys { <LSGT>, <BKSL>, { <LFSH>, "WIDE"}, { <LCTL>, "WIDE"}, <HKTG>};
 	};
 	row {
 	    left= 22;
@@ -248,5 +248,3 @@ top=-2.5;
     alias <AC00> = <CAPS>;
     alias <AA00> = <LCTL>;
 };
-
-

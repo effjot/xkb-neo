@@ -1,5 +1,9 @@
 // -*- compile-command: "xkbcomp trulyergonomic - | xkbprint - - | convert -background white -flatten +matte -rotate -90 PS:- PNG:- | display -" -*-
 
+// based on the geometry file by Anders Waldenborg
+// https://github.com/wanders/blowrak/blob/master/xkb/geometry/trulyergonomic
+
+
 default xkb_geometry "n_209" {
 
     description= "Truly Ergonomic Computer Keyboard (TECK)";

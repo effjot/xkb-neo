@@ -5,7 +5,7 @@ Designüberlegungen zu NEO auf der Truly Ergonomic
 http://wiki.neo-layout.org/wiki/Hardwareentwicklung/Truly
 
 
-Meine Anwendungsfälle
+Vorab: meine Anwendungsfälle
 ---------------------
 
 Ich bin kein reiner Textvielschreiber.  Häufiger programmiere ich (R,
@@ -60,9 +60,29 @@ und `Mod4` zur Verfügung stehen.
 Tab auf linker Space-Taste
 --------------------------
 
-Ich schlage die Leertaste schon seit jeher mit rechts an, darum ist
-der linke Daumen frei.  In der Shell, aber auch beim Programmieren und
-Browsen, verwende ich Tab *sehr* häufig.
+Ich schlage die Leertaste schon seit jeher immer nur mit rechts an,
+darum ist der linke Daumen frei.  In der Shell, aber auch beim
+Programmieren und Browsen, verwende ich Tab *sehr* häufig.
 
 Für eine der Mod-Tasten kam die linke Leertaste mangels symmetrischem
 Pendant für mich nicht in Frage.
+
+
+Plus und Minus
+--------------
+
+Die Tasten `+` und `-` rechts oben lasse ich so wie sie sind.  Bei
+mauslastigen Programmen ist dann Zoomen etc. mit der freien Hand (Bei
+mir praktischerweise rechts…) bequem möglich.  Auch `Strg-+` bzw. `-`,
+wie sie Firefox verwendet, sind dann noch einhändig benutzbar.
+
+
+Weitere mögliche Anpassungen
+----------------------------
+
+Diese Ideen muß ich noch ausprobieren:
+
+**Mod3 auf schwarzen Tasten?**
+
+Damit wären für Emacs C- und M-Kombinationen mit 3.-Ebene-Zeichen
+greifbarer.  Beispiele: `M-%`, `C-)`, `M--`

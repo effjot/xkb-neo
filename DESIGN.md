@@ -77,7 +77,7 @@ Plus und Minus
 
 Die Taste `-` rechts oben (neben der Null) lasse ich so wie sie bei
 NEO ist.  Die `+ =`-Taste ganz rechts oben bekommt die Belegung von
-Nummernblock-`+`, mit einer Ergänzung: Umschalt-`+` ergibt `=` statt
+Ziffernblock-`+`, mit einer Ergänzung: Umschalt-`+` ergibt `=` statt
 nur wieder `+`. (Damit hat man ein bißchen mehr von dieser Taste, und
 die Belegung passt auch besser zum Tastenbild.)
 
@@ -109,10 +109,6 @@ paar Male stört mich das nicht.
 
 Evtl. könnte man da eine XKB-Option draus machen.
 
-Ein bißchen ärgerlich ist, daß ohne T1 die beiden Außentasten über
-Umschalt frei wären für `Mod3` oder `Mod4`.  Vielleicht könnte man T1
-nach oben auf CapsLock verbannen, das ja nicht gebraucht wird.
-
 
 Weitere mögliche Anpassungen
 ----------------------------
@@ -123,3 +119,22 @@ Diese Ideen muß ich noch ausprobieren:
 
 Damit wären für Emacs C- und M-Kombinationen mit 3.-Ebene-Zeichen
 greifbarer.  Beispiele: `M-%`, `C-)`, `M--`
+
+
+**T1 auf `CapsLock`, Mod3/4 auf `\ |` und `] }`**
+
+Ein bißchen ärgerlich ist, daß ohne T1 die beiden Außentasten über
+Umschalt frei wären für `Mod3` oder `Mod4`.  Vielleicht könnte man T1
+nach oben auf `CapsLock` verbannen, das ja nicht gebraucht wird.  Dann
+ist T1 zwar kaum noch „blind“ zu erreichen (zumindest alles andere als
+bequem), aber wie gesagt brauche ich Akzente selten.
+
+
+**Umschalt-`-` als Minus**
+
+Das „echte Minus“ ist bei NEO nur über den Ziffernblock erreichbar.
+Die `-`-Taste (rechts von `0`) ist auf Ebene 2 nicht belegt.  Da
+könnte das Minus hin.
+
+Das ist aber nicht rein TECK-spezifisch, könnte für Standard-NEO
+vielleicht auch interessant sein.

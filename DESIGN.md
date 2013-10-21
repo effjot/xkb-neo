@@ -71,10 +71,22 @@ Pendant für mich nicht in Frage.
 Plus und Minus
 --------------
 
-Die Tasten `+` und `-` rechts oben lasse ich so wie sie sind.  Bei
-mauslastigen Programmen ist dann Zoomen etc. mit der freien Hand (Bei
-mir praktischerweise rechts…) bequem möglich.  Auch `Strg-+` bzw. `-`,
-wie sie Firefox verwendet, sind dann noch einhändig benutzbar.
+Die Taste `-` rechts oben (neben der Null) lasse ich so wie sie bei
+NEO ist.  Die `+ =`-Taste ganz rechts oben bekommt die Belegung von
+Nummernblock-`+`, mit einer Ergänzung: Umschalt-`+` ergibt `=` statt
+nur wieder `+`. (Damit hat man ein bißchen mehr von dieser Taste, und
+die Belegung passt auch besser zum Tastenbild.)
+
+Damit ist bei mauslastigen Programmen Zoomen etc. mit der freien Hand
+(Bei mir praktischerweise rechts…) bequem möglich.  Auch `Strg-+`
+bzw. `-`, wie sie Firefox verwendet, sind dann noch einhändig
+benutzbar.
+
+
+Akzenttasten
+------------
+
+
 
 
 Weitere mögliche Anpassungen

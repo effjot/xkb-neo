@@ -1,6 +1,10 @@
 Designüberlegungen zu NEO auf der Truly Ergonomic
 =================================================
 
+Ich will hier kurz darlegen, was ich wo hin gelegt habe und warum.
+Diese Begründungen sind oft subjektiv, bzw. meinen
+häufigsten/wichtigsten Anwendungsfällen geschuldet.
+
 „Wiki“ meint die Seite „Tips und Tricks zum Truly Ergonomic…“ im Neo-Wiki:
 http://wiki.neo-layout.org/wiki/Hardwareentwicklung/Truly
 
@@ -86,7 +90,28 @@ benutzbar.
 Akzenttasten
 ------------
 
+Das TECK hat nur zwei Akzenttasten (links oben): Akut und Gravis; ein
+Circumflex fehlt.  Möchte man Standard-NEO möglichst nahe kommen,
+sollte T1 („Circumflex“) links neben `1` auf der Gravis-Taste liegen,
+T2 („Gravis“) rechts neben `0` und `-` auf der Plus-Taste und T3
+(„Akut“) auf der schließenden eckigen Klammer.
 
+Da ich die Plus-Taste als solche erhalten möchte, muß zumindest T2
+woanders hin.  Und weil ich Akzente selten verwende und mir ihre Lage
+in Standard-NEO noch nicht eingeprägt habe, bevorzuge ich T3 und T2
+auf den Akut- und Gravis-Tasten, damit sie zum Tastenbild passen.
+
+T1 kann dann entweder auf `] }` oder `\ |`, da habe ich keine
+wirkliche Präferenz.  Ich habe jetzt `\ |` genommen, dann sind alle
+Akzenttasten beisammen.  Andererseits liegen sie damit auch auf der
+Vokal-Seite (mit denen sie ja hauptsächlich verwendet werden); für die
+paar Male stört mich das nicht.
+
+Evtl. könnte man da eine XKB-Option draus machen.
+
+Ein bißchen ärgerlich ist, daß ohne T1 die beiden Außentasten über
+Umschalt frei wären für `Mod3` oder `Mod4`.  Vielleicht könnte man T1
+nach oben auf CapsLock verbannen, das ja nicht gebraucht wird.
 
 
 Weitere mögliche Anpassungen

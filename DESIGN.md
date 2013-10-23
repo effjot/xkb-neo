@@ -46,6 +46,10 @@ Vertauschen von j und y
 Wie alle im Wiki vertausche ich j und y, so daß *j* an den
 angestammten Platz kommt (`' "`) und *y* auf `/ ?` (links neben `x`).
 
+Zusätzlich bekommt `j` die 4.-Ebene-Funktion von `y` (Punkt), weil ich
+den Punkt bei Zahleneingaben mit dem „Ziffernblock“ der 4. Ebene viel
+öfter brauche (Datum, engl. Zahlen) als das Semikolon.
+
 
 Mod-Tasten in der Mittelreihe
 -----------------------------

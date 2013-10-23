@@ -1,11 +1,11 @@
 partial alphanumeric_keys modifier_keys keypad_keys
 xkb_symbols "neo" {
 
-    // Exchange j and y
+    // Exchange j and y places; j gets y's M4 meaning (period) because more useful in the "num block"
 
     key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC_LEVEL_FIVE_LOCK";
-    key <AC11> { [ j, J, semicolon,	Greek_theta,	semicolon,	NoSymbol,	Greek_THETA,	NoSymbol ] };
-    key <AB10> { [ y, Y, at,		Greek_upsilon,	period,		KP_Decimal,	nabla,		NoSymbol ] };
+    key <AC11> { [ j, J, semicolon,	Greek_theta,    period,	KP_Decimal,     Greek_THETA,	NoSymbol ] };
+    key <AB10> { [ y, Y, at,	Greek_upsilon,          period,	KP_Decimal,	nabla,		NoSymbol ] };
 
 
     // Put deadkeys T1, T2, T3 on keys "backslash", "grave", "acute".

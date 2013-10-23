@@ -86,7 +86,7 @@ section "LeftSpace" {
     angle=6;
 key.shape="SPACEBAR";
     row {
-	keys { <JPCM> };
+	keys { <MENU> };
     };
 };
 section "RightSpace" {

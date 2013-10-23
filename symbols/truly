@@ -9,7 +9,7 @@ xkb_symbols "neo" {
 
 
     // Put deadkeys T1, T2, T3 on keys "backslash", "grave", "acute".
-    // Free up "plus" key, use it as keypad plus, additionally with "=" when shifted.
+    // This frees up "plus" key; use it as keypad plus, additionally with "=" when shifted.
 
     key.type[Group1] = "EIGHT_LEVEL_LEVEL_FIVE_LOCK";
     key <BKSL> { [ dead_circumflex, dead_caron,	U21BB,		U02DE,		dead_abovedot,		Pointer_EnableKeys, dead_belowdot,	NoSymbol ] };
@@ -21,24 +21,15 @@ xkb_symbols "neo" {
     // M3 and M4 on central column (keys labelled Tab and Del).
     // Copied from level3(caps_switch) and level5(lsgt_switch).
 
-    key <TAB> {
-        type[Group1]="ONE_LEVEL",
-        symbols[Group1] = [ ISO_Level3_Shift ]
-    };
-    key <HKTG> {
-        type[Group1] = "ONE_LEVEL",
-        symbols[Group1] = [ ISO_Level3_Shift ]
-    };
-    key <AB11> {
-        type[Group1] = "ONE_LEVEL",
-        symbols[Group1] = [ ISO_Level3_Shift ]
-    };
+    key.type[Group1] = "ONE_LEVEL";
+    key <TAB>  { [ ISO_Level3_Shift ] };
+    key <HKTG> { [ ISO_Level3_Shift ] };
+    key <AB11> { [ ISO_Level3_Shift ] };
     include "level3(modifier_mapping)"
-    key <HENK> {
-        type[Group1]="ONE_LEVEL",
-        symbols[Group1] = [ ISO_Level5_Shift ]
-    };
+
+    key <HENK> { [ ISO_Level5_Shift ] };
     include "level5(modifier_mapping)"
+
 };
 
 

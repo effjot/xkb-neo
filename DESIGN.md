@@ -43,6 +43,23 @@ Wie alle im Wiki vertausche ich `j` und `y`, so daß `j` an den
 angestammten Platz kommt und `y` neben `x`.
 
 
+Mod-Tasten in der Mittelreihe
+-----------------------------
+
+In der Mittelreihe gibt es eine `Del`- und eine `Tab`-Taste, die dort
+nicht benötigt werden: *Delete* gibt es auf der NEO-Ebene 4, in Emacs
+als `C-d` und außerdem als eigene Taste ganz rechts oben (neben den
+Funktionstasten); *Tab* habe ich auf die linke `Space`-Taste gelegt
+(s.u.).  Damit werden diese zentralen Tasten frei für die
+Ebenenumschaltung:
+
+*Mod3* liegt auf der Tab-Taste und ist mit den Zeigefingern (wenn auch
+mit etwas strecken) erreichbar.
+
+*Mod4* auf der Del-Taste liegt nicht mehr ganz so schön, geht aber
+gerade noch.
+
+
 Shift, Control und Enter
 ------------------------
 
@@ -118,7 +135,7 @@ Diese Ideen muß ich noch ausprobieren:
 **Mod3 auf schwarzen Tasten?**
 
 Damit wären für Emacs C- und M-Kombinationen mit 3.-Ebene-Zeichen
-greifbarer.  Beispiele: `M-%`, `C-)`, `M--`
+greifbarer.  Beispiele: `M-%`, `M-{`, `C-)`, `M--`
 
 
 **T1 auf `CapsLock`, Mod3/4 auf `\ |` und `] }`**

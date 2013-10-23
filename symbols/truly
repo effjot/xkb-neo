@@ -30,6 +30,11 @@ xkb_symbols "neo" {
     key <HENK> { [ ISO_Level5_Shift ] };
     include "level5(modifier_mapping)"
 
+
+    // Restore Caps_Lock function (standard NEO changed it to M3)
+
+    key <CAPS> { [ Caps_Lock ] };
+
 };
 
 

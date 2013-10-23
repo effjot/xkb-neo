@@ -178,7 +178,7 @@ key.gap=2;
 	};
 	row {
 	    left= 22;
-	    keys { <AE00>, <AB10>, { <LALT>, gap=42 } };
+	    keys { <TLDE>, <AB10>, { <LALT>, gap=42 } };
 	};
 	row {
 	    left= 42;

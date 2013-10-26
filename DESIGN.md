@@ -1,9 +1,26 @@
 Designüberlegungen zu NEO auf der Truly Ergonomic
 =================================================
 
-Ich will hier kurz darlegen, was ich wo hin gelegt habe und warum.
-Diese Begründungen sind oft subjektiv, bzw. meinen
-häufigsten/wichtigsten Anwendungsfällen geschuldet.
+So sieht meine Belegung aus:
+
+    ┌───┬───┬───┬───┬───┬───┬───┬─────┬───┬───┬───┬───┬───┬───┬───┐
+    │ T3│ T2│ 1 │ 2 │ 3 │ 4 │ 5 │ Win │ 6 │ 7 │ 8 │ 9 │ 0 │ - │ + │
+    ├───┼───┼───┼───┼───┼───┼───┼─────┼───┼───┼───┼───┼───┼───┼───┤
+    │ T1│ y │ x │ v │ l │ c │ w │ M4  │ k │ h │ g │ f │ q │ ß │   │
+    ├───┴───┼───┼───┼───┼───┼───┼─────┼───┼───┼───┼───┼───┼───┴───┤
+    │ Shift │ u │ i │ a │ e │ o │ M3  │ s │ n │ r │ t │ d │ Shift │
+    ├───────┼───┼───┼───┼───┼───┼─────┼───┼───┼───┼───┼───┼───────┤
+    │ Strg  │ ü │ ö │ ä │ p │ z │ BkSp│ b │ m │ , │ . │ j │ Strg  │
+    ├───┬───┼┬┬┬┼───┼┬┬┬┼───┴───┼─────┼───┴───┼┬┬┬┼───┼┬┬┬┼───┬───┤
+    │ M3│Alt├┴┴┴┤PUp├┴┴┴┤  Tab  │Enter│ Space ├┴┴┴┤ ↑ ├┴┴┴┤Alt│ M3│
+    └───┴───┤Hom├───┤End├───────┴─────┴───────┤ ← ├───┤ → ├───┴───┘
+            └───┤PDn├───┘                     └───┤ ↓ ├───┘
+                └───┘                             └───┘
+
+In den nächsten Abschnitten will ich kurz erklänen, was ich wo hin
+gelegt habe und warum.  Diese Begründungen sind natürlich oft
+subjektiv, bzw. meinen häufigsten/wichtigsten Anwendungsfällen
+geschuldet.
 
 „Wiki“ meint die Seite „Tips und Tricks zum Truly Ergonomic…“ im Neo-Wiki:
 http://wiki.neo-layout.org/wiki/Hardwareentwicklung/Truly
@@ -14,7 +31,7 @@ Funktionen (z.B. *Mod3*).
 
 
 Vorab: meine Anwendungsfälle
----------------------
+----------------------------
 
 Ich bin kein reiner Textvielschreiber.  Häufiger programmiere ich (R,
 Lisp, Javascript), benutze die Shell oder schreibe LaTeX, manchmal
@@ -158,7 +175,7 @@ ist *T1* zwar kaum noch „blind“ zu erreichen (zumindest alles andere als
 bequem), aber wie gesagt brauche ich Akzente selten.
 
 
-**Umschalt-`-` als *Minus***
+**Umschalt-`-` als Minus**
 
 Das „echte Minus“ ist bei NEO nur über den Ziffernblock erreichbar.
 Die `-`-Taste (rechts von `0`) ist auf Ebene 2 nicht belegt.  Da

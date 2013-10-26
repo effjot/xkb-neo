@@ -35,6 +35,11 @@ xkb_symbols "neo" {
 
     key <CAPS> { [ Caps_Lock ] };
 
+
+    // Restore Num_Lock function.  Due to Firmware bug, this key still also sends VolumeDown, anyway.
+
+    key <NMLK> { [ Num_Lock ] };
+
 };
 
 

@@ -51,8 +51,8 @@ den Punkt bei Zahleneingaben mit dem „Ziffernblock“ der 4. Ebene viel
 öfter brauche (Datum, engl. Zahlen) als das Semikolon.
 
 
-Mod-Tasten in der Mittelreihe
------------------------------
+Mod-Tasten
+----------
 
 In der Mittelreihe gibt es eine `Del`- und eine `Tab`-Taste, die dort
 nicht benötigt werden: *Delete* gibt es auf der NEO-Ebene 4, in Emacs
@@ -66,6 +66,13 @@ mit etwas strecken) erreichbar.
 
 *Mod4* auf der Del-Taste liegt nicht mehr ganz so schön, geht aber
 gerade noch.
+
+Außerdem liegt auf den beiden schwarzen Tasten außen unten.  Die sind
+fürs normale Tippen zwar zu weit weg, aber direkt benachbart zu `Alt`
+und `Ctrl`.  Damit werden Control und Alt/Meta-Kombinationen mit
+3.-Ebene-Zeichen greifbarer.  Davon gibt es vor allem bei Emacs
+einige, z.B. `M-%`, `M-{`, `C-)`, `M--`.
+
 
 
 Shift, Control und Enter
@@ -140,11 +147,6 @@ Weitere mögliche Anpassungen
 ----------------------------
 
 Diese Ideen muß ich noch ausprobieren:
-
-**Mod3 auf schwarzen Tasten?**
-
-Damit wären für Emacs C- und M-Kombinationen mit 3.-Ebene-Zeichen
-greifbarer.  Beispiele: `M-%`, `M-{`, `C-)`, `M--`
 
 
 **Akzenttaste *T1* auf `CapsLock`, *Mod3/4* auf `\ |` und `] }`**

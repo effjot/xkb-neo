@@ -3,14 +3,16 @@ NEO and Truly Ergonomic keyboard
 
 This is an adaption of the German **NEO** layout for the **Truly Ergonomic
 Computer Keyboard (TECK)**, using the X Keyboard Extension (XKB, see
-below).
+next section).
 
 Activate the layout with `setxkbmap de neo -option truly:neo`.  DIP
 switch 1 of the keyboard *must be off*.
 
 Additionally, the left space key can act as Tab with `setxkbmap de neo
 -option truly:neo,truly:leftspace_tab`.  DIP switch 3 of the keyboard
-*must be off*.
+*must be off*.  This option can also be used with other (non-NEO) layouts.
+
+Details can be found in the `DESIGN.md` file (in German).
 
 
 X Keyboard Extension

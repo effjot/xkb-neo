@@ -1,0 +1,22 @@
+#!/bin/sh
+
+#### Print keyboard layout to PDF
+
+
+## Compile keymap
+
+setxkbmap -I$PWD -print de neo -option truly:neo,altwin:meta_alt,truly:leftspace_tab -geometry trulyergonomic | xkbcomp -I$PWD - - > teck-neo.xkb
+
+
+## Print layouts
+
+xkbprint -eps -level2 -color -label symbols teck-neo.xkb - | epstopdf --filter >teck-neo-1-2.pdf
+xkbprint -eps -level2 -color -label symbols -ll 3 teck-neo.xkb - | epstopdf --filter >teck-neo-3-5.pdf
+xkbprint -eps -level2 -color -label symbols -ll 5 teck-neo.xkb - | epstopdf --filter >teck-neo-4-shift4.pdf
+xkbprint -eps -level2 -color -label symbols -ll 7 teck-neo.xkb - | epstopdf --filter >teck-neo-6.pdf
+
+
+## Print TECK keycodes
+
+xkbprint -eps -level2 -color -label name teck-neo.xkb - | epstopdf --filter >teck-neo-keycodes.pdf
+

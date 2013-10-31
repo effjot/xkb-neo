@@ -20,9 +20,6 @@ default xkb_geometry "model209" {
     shape "ENTERKEY" { { [ 32, 18] }, { [1, 1], [31, 15] } };
     shape "SPACEBAR" { { [ 38, 18] }, { [1, 1], [37, 15] } };
 
-    alias <AC00> = <CAPS>;
-    alias <AA00> = <LCTL>;
-
 
     outline "Edges" {
 	top   = 0;

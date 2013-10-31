@@ -1,7 +1,7 @@
 // based on the geometry file by Anders Waldenborg:
 // https://github.com/wanders/blowrak/blob/master/xkb/geometry/trulyergonomic
 
-default xkb_geometry "n_209" {
+default xkb_geometry "model209" {
 
     description = "Truly Ergonomic Computer Keyboard (TECK) Model 209";
     width  = 330;

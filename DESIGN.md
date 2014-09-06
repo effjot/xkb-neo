@@ -60,7 +60,7 @@ ich das als Option für längere Editor-Sitzungen.
 Vertauschen von j und y
 -----------------------
 
-Wie alle im Wiki vertausche ich j und y, so daß *j* an den
+Wie fast alle im Wiki vertausche ich j und y, so daß *j* an den
 angestammten Platz kommt (`' "`) und *y* auf `/ ?` (links neben `x`).
 
 Zusätzlich bekommt `j` die 4.-Ebene-Funktion von `y` (Punkt), weil ich
@@ -84,12 +84,11 @@ mit etwas strecken) erreichbar.
 *Mod4* auf der Del-Taste liegt nicht mehr ganz so schön, geht aber
 gerade noch.
 
-Außerdem liegt auf den beiden schwarzen Tasten außen unten.  Die sind
-fürs normale Tippen zwar zu weit weg, aber direkt benachbart zu `Alt`
-und `Ctrl`.  Damit werden Control und Alt/Meta-Kombinationen mit
-3.-Ebene-Zeichen greifbarer.  Davon gibt es vor allem bei Emacs
+Außerdem liegt *Mod3* auf den beiden schwarzen Tasten außen unten.
+Die sind fürs normale Tippen zwar zu weit weg, aber direkt benachbart
+zu `Alt` und `Ctrl`.  Damit werden Control und Alt/Meta-Kombinationen
+mit 3.-Ebene-Zeichen greifbarer.  Davon gibt es vor allem bei Emacs
 einige, z.B. `M-%`, `M-{`, `C-)`, `M--`.
-
 
 
 Shift, Control und Enter
@@ -117,6 +116,8 @@ Ich schlage die Leertaste schon seit jeher immer nur mit rechts an,
 darum ist der linke Daumen frei.  In der Shell, aber auch beim
 Programmieren und Browsen, verwende ich Tab *sehr* häufig, darum kommt
 *Tab* auf die linke `Space`-Taste.
+
+Damit geht Programmwechsel mit Alt-Tab auch bequem einhändig.
 
 Für eine der Mod-Tasten kam diese Taste mangels symmetrischem Pendant
 für mich nicht in Frage.
